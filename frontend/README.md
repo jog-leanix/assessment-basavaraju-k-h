@@ -25,7 +25,7 @@ Then  : Should show error with the appropriate message using ngx-toaster library
     ts-mokita
     Karma
     Typescript
-    Docket
+    Docker
 
 ### To boot up application:
 
