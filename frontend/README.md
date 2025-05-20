@@ -22,7 +22,7 @@ Then  : Should show error with the appropriate message using ngx-toaster library
 
 ### Tech-Stack:
     Angular 19
-    ts-mokita
+    ts-mokito
     Karma
     Typescript
     Docker
