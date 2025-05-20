@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend/grid
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build: ./frontend/grid-game
+    ports:
+      - "4200:80"
+    depends_on:
+      - backend
