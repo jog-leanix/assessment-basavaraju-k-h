@@ -1,0 +1,18 @@
+<div class="title"> Interactive Grid</div>
+<div class="grid">
+  <div *ngFor="let row of grid; let rowIndex = index" class="grid-row">
+    <div
+      *ngFor="let cell of row; let colIndex = index"
+      (click)="onCellClick(rowIndex, colIndex)"
+    >
+      <app-cell
+        [value]="cell.value"
+        [isYellow]="isYellow(cell)"
+        [isGreen]="isGreen(cell)"
+      ></app-cell>
+    </div>
+  </div>
+  <div style="margin: 2rem;">
+    <button (click)="resetGrid()" class="clear-btn">Reset Grid</button>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+.cell {
+  width: 20px;
+  height: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: lightgreen;
+}
